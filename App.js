@@ -22,5 +22,5 @@ io.on("connection", (socket) => {
 })
 
 server.listen(process.env.PORT || 3001, () => {
-    console.log('server is Runnig port:3001')
+    console.log('server is Runnig')
 })
